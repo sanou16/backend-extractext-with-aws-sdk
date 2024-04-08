@@ -9,9 +9,9 @@ const cors = require('cors');
 const multer = require('multer')
 
 const REGION = 'us-east-1'
-const accessKeyId = 'ASIAVPXTYGVCIYBDHCR2'
-const secreteKey = '3Nyn7jUxorjLJWVSGVsKkD6NJLxKBDzJwgxGS0bi'
-const sessionKey = 'IQoJb3JpZ2luX2VjEMv//////////wEaCXVzLXdlc3QtMiJGMEQCIBiq8o+aZrzgNQQCSrhBvTFaPP8RzXgfKPZPR4+49VhWAiAun3X9CCiA0jPbLy+FrhMwSErCWMjinwcxEkLty7m8SCq4Agj0//////////8BEAAaDDM3NzM5NDU3NDY2MCIM308vllpDFM4MOPshKowC+f0+MWFqxFhNkuHBYsMM4BD6rRGq5tA9Gd+1Astrkwtac17K5IW5ccqJKpQ95lNV1yrUuTey2oU3jjf+TYGI+m0hc7A7N72z4AahSVUDgvPxR50HebVxOpmyE3ginhIsCengdmF7/6whBa8L+t6sIyJkilss81cPcXOn+YMhVvEOARg5bh05OHqh1mXeMqO/xA+y3NFFM3UZFmcKaVO9rwWIg0OJ5NJLdM41q8E/I/xCncDjUxlNx2XDlmZ5vH2Jwa8s4v9HWhkAdn7yYtLVYQ+7xz8wxMJyQ4GqWufEzjZAbobxtnKeCFFY6XUZm5mMnIg3sMso/vA7DLkojms4cjtKTrCdhhJU8Q8a8TDmg9GwBjqeAfSN3eGEKQ/U8lkBTdealmTZ95Bi6lL8D8Qg7XMdaW7uD29VwLD6rYKHJf4Vx9YLYqFjkjQJ2TmRg2lTnqv/sCkWJCSm0anr4Q4SGExl9rj5Xlzpc5j2mUGBOsNCmIRQ67n4NfR230E0mmxnExwW/fWLKClV09oKjDHv80/upPWGIrIZwrfZOK91gnYUdJsLP6ynlgoJHgsbClGzYHZX'
+const accessKeyId = ''
+const secreteKey = ''
+const sessionKey = ''
 
 
 const upload = multer({})
