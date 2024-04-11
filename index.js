@@ -101,6 +101,12 @@ app.post('/v2/upload', upload.single('file'), async(req, res) => {
                                 } else if (text.includes("Scolarité :")) {
                                     extractedData.scolarite = text.split("Scolarité :")[1].trim();
                                 }
+                                else if(text.includes("0 Paiement ")){
+                                    extractedData.modePaiement = text.split("0 Paiement ")[1].trim();
+                                }
+                                else if(text.includes("0 Chèque ")){
+                                    extractedData.modePaiement = text.split("0 Chèque ")[1].trim();
+                                }
                             }
                         }
         
@@ -115,7 +121,8 @@ app.post('/v2/upload', upload.single('file'), async(req, res) => {
                                 total:extractedData.total,
                                 date:extractedData.date,
                                 inscription:extractedData.inscription,
-                                scolarite:extractedData.scolarite
+                                scolarite:extractedData.scolarite,
+                                modePaiement:extractedData.modePaiement
                                 
                             }
                         };
